@@ -1,0 +1,24 @@
+package arrays;
+
+public class name {
+	
+	public static void main(String[] args) {
+
+		
+		char[] values = new char[10];
+		values[0] = 'c';
+		values[1] = 'h';
+		values[2] = 'i';
+		values[3] = 'r';
+		values[4] = 'a';
+        values[5] = 'g';
+		
+		for (char value : values) {
+			
+		    System.out.print(value);
+		    
+		}
+		
+	 }
+
+}
