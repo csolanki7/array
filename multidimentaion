@@ -1,0 +1,31 @@
+package arrays;
+
+public class multidimentaion {
+
+	
+	public static void main ( String [] args ) {
+		
+		
+		int[][] values = new int[4][4];
+
+		
+		values[0][0] = 1;
+		values[1][1] = 2;
+		values[3][2] = 3;
+
+		
+		for (int i = 0; i < values.length; i++) {
+
+		   
+		    int[] sub = values[i];
+		    
+		    for (int x = 0; x < sub.length; x++) {
+		    	
+			System.out.print(sub[x] + " ");
+			
+		    }
+		    
+		    System.out.println();
+		}
+	 }
+}
