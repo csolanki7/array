@@ -1,0 +1,37 @@
+package arrays;
+
+public class secondhighest {
+
+	 public int sechigh(int [] arr ) {
+		 
+		 int h , sh; 
+		 
+		 h = arr[0]; 
+		 sh= arr[0]; 
+		 
+		 for (int n:arr) {
+			 
+			 if ( h > n ) {
+				 
+				 sh = h; 
+				 h  = n; 
+				 
+			 }
+			 else if (sh > n ) {
+				 
+				 sh = n; 
+			 }
+		 }
+		 return sh; 
+		 
+	 }
+		 
+
+public static void main ( String [] args) {
+	int x[] = {10,2,12,4,5};
+	secondhighest  c1 = new secondhighest();
+	System.out.println(c1.sechigh(x));
+}
+}
+	
+
