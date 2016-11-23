@@ -11,7 +11,7 @@ public class secondhighest {
 		 
 		 for (int n:arr) {
 			 
-			 if ( h > n ) {
+			 if ( h < n ) {
 				 
 				 sh = h; 
 				 h  = n; 
